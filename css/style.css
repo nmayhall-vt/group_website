@@ -972,7 +972,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #ffffff;
-		padding: 10em 5% 8em;
+		padding: 12em .5em 10em;
 		/*padding: 16em 0em 14em;*/
 		text-align: left;
 	}
@@ -983,12 +983,13 @@
 			font-size: 3em;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
-			padding: 0;
+			padding: 0em .5em 0em;
 		}
 
 		#banner p {
 			font-size: 1.5em;
 			margin: 1.5em 0 0 0;
+			padding: 0em .5em 0em;
 		}
 
 		#banner .actions {
