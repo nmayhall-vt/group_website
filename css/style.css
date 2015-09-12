@@ -983,14 +983,15 @@
 			font-size: 3em;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
-			padding: 0em .5em 0em;
+			padding: 0em 34px 0px;
 			letter-spacing: 12px;
 		}
 
 		#banner p {
-			font-size: 1.0em;
-			margin: 1.5em 0 0 0;
-			padding: 0em .5em 0em;
+			color: #888;
+			font-size: 1.2em;
+			margin: 25px 0px 0 0;
+			padding: 0em 34px 0px;
 			/*margin: 0 50% 0.5em 0;
 			padding: 1em 1.5em 0em;
 			text-align: justify;
