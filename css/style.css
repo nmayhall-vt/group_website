@@ -968,11 +968,12 @@
 		/*background: url("images/overlay.png"), url("../images/header_transparent_back.png");*/
 		/*max-width:100%;*/
 		/*height:auto;*/
+		height:auto;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #ffffff;
-		padding: 12em .5em 10em;
+		padding: 13em .5em 12em;
 		/*padding: 16em 0em 14em;*/
 		text-align: left;
 	}
