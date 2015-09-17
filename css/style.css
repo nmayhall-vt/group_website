@@ -973,7 +973,8 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #ffffff;
-		padding: 13em .5em 12em;
+		padding: 300px 34px 250px;
+		/*padding: 13em .5em 12em;*/
 		/*padding: 16em 0em 14em;*/
 		text-align: left;
 	}
