@@ -870,6 +870,7 @@
 		left: 0;
 		position: absolute;
 		top: 0;
+		color: #ffffff;
 	}
 
 	#header {
@@ -973,7 +974,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #ffffff;
-		padding: 300px 34px 250px;
+		padding: 300px 500px 250px;
 		/*padding: 13em .5em 12em;*/
 		/*padding: 16em 0em 14em;*/
 		text-align: left;
@@ -987,6 +988,9 @@
 			margin: 0 0 0.5em 0;
 			padding: 0em 34px 0px;
 			letter-spacing: 12px;
+		}
+		#banner ul {
+			padding: 10px 34px 0px;
 		}
 
 		#banner p {
