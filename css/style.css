@@ -977,7 +977,7 @@
 						display: inline-block;
 						text-decoration: none;
 					}
-					#header ul > li a2 {
+					#header ul > li a > a2 {
 						-moz-transition: color 0.1s ease-in-out;
 						-webkit-transition: color 0.1s ease-in-out;
 						-o-transition: color 0.1s ease-in-out;
