@@ -1036,7 +1036,9 @@ color: #3ba666;
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: #ffffff;
-		padding: 300px 500px 250px;
+		padding: 13% 10% 10% 10%;
+		margin: 0 0 0 0;
+		/*padding: 14em 6em 13em;*/
 		/*padding: 13em .5em 12em;*/
 		/*padding: 16em 0em 14em;*/
 		text-align: left;
@@ -1047,19 +1049,21 @@ color: #3ba666;
 			font-weight: 300;
 			font-size: 3em;
 			line-height: 1em;
-			margin: 0 0 0.5em 0;
-			padding: 0em 34px 0px;
-			letter-spacing: 12px;
+			margin: 0 10px 0 10px;
+			padding: 0em 0px .2em 0em;
+			letter-spacing: .25em;
 		}
 		#banner ul {
-			padding: 10px 34px 0px;
+			padding: 4em 0 0 0;
+			margin: 0 10px 0 10px;
 		}
 
 		#banner p {
 			color: #888;
 			font-size: 1.2em;
-			margin: 25px 0px 0 0;
-			padding: 0em 34px 0px;
+			/*padding: top right bottom left*/
+			margin: 0 10px 0 10px;
+			padding: 0 0 0 0;
 			/*margin: 0 50% 0.5em 0;
 			padding: 1em 1.5em 0em;
 			text-align: justify;
@@ -1067,7 +1071,6 @@ color: #3ba666;
 		}
 
 		#banner .actions {
-			margin: 3em 0 0 0;
 		}
 
 		#banner .button {
