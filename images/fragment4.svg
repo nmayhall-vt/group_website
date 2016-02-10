@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1415.7291"
+   height="717.14288"
+   id="svg34007"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="fragment4.svg">
+  <defs
+     id="defs34009" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="234.23158"
+     inkscape:cy="190.02079"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1871"
+     inkscape:window-height="1056"
+     inkscape:window-x="49"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata34012">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(101.00217,-113.50365)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect2985"
+       width="1415.7291"
+       height="717.14288"
+       x="-101.00217"
+       y="113.50365"
+       rx="35.790508"
+       ry="33.708015" />
+    <image
+       width="359.63434"
+       height="313.05649"
+       xlink:href="file:///home/nmayhall/work/conferences/2014-ACS-SF/poster-aei/images/frag/mob_method.jpg"
+       id="image17005"
+       x="-90.701584"
+       y="423.32358" />
+    <image
+       y="143.32356"
+       x="-90.701584"
+       id="image16720"
+       xlink:href="file:///home/nmayhall/work/conferences/2014-ACS-SF/poster-aei/images/frag/den29_abs.jpg"
+       height="233.01024"
+       width="341.91718" />
+    <image
+       sodipodi:absref="/home/nmayhall/Dropbox/Research/conferences/2016-vt_hallway_poster/images/fragment2.png"
+       xlink:href="fragment2.png"
+       width="918.67389"
+       height="697.48395"
+       id="image3055"
+       x="382.05307"
+       y="122.30541" />
+  </g>
+</svg>
