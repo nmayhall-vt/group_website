@@ -484,6 +484,18 @@
 				width: 100%;
 			}
 
+                .image.mobilesensitive {
+                        border-radius: 8px;
+                        display: block;
+                        float: left;
+                        padding: 0 1.5em 1em 0;
+                        top: 0.25em;
+                        max-width: 40%;
+                }
+                        .image.mobilesensitive img {
+                                width: 100%;
+                        }
+
 		.image.right {
 			float: right;
 			padding: 0 0 1em 1.5em;
