@@ -55,3 +55,15 @@
 	input[type="button"] {
 		padding: 0;
 	}
+
+/* Images */
+
+        .image.mobilesensitive {
+                        border-radius: 8px;
+                        display: block;
+                        float: left;
+                        padding: 0 1.5em 1em 0;
+                        top: 0.25em;
+                        max-width: 30%;
+                }
+
