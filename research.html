@@ -80,12 +80,22 @@
 				many of our most important problems are not easily modelled with conventional quantum chemistry. 
 				We have an on-going interest in developing new tools for the computational chemist to 
 				efficiently model systems containing strongly correlated electrons.
+
+				<p>
+				One approach to this problem is to consider tensor decompositions as a way to decrease the complexity of representing strongly correlated systems. 
+				In <a href="http://pubs.acs.org/articlesonrequest/AOR-5ciuIbcykSpZmHpMxvrU">an initial study</a>, we have developed a strategy based on the Tucker decomposition
+				to approximate a system of semi-separable clusters in a quickly converging series of <em>n</em>-body terms.
+				</p>
 				<div class="entry-content">
 					<a href=http://pubs.acs.org/articlesonrequest/AOR-5ciuIbcykSpZmHpMxvrU class="image fit">
 						<img border="0" title="n-body Tucker decomposition"
 		      src="images/nbody_tucker.png">
 					</a>
 				</div><!-- .entry-content -->
+				<p>
+				We also have an ongoing interest in the use of the spin-flip framework (pioneered by Anna Krylov at USC) for describing several 
+				types of strongly correlated systems within a single reference formalism. 
+				</p>
 				<div class="entry-content">
 					<a class="image fit"><img src="images/strong_corr2.png" alt="" /></a>
 				</div><!-- .entry-content -->
@@ -100,6 +110,11 @@
 				We develop computational techniques to understand the detailed structure and mechanisms which 
 				characterize such photoactive molecular materials, in an effort to design new materials
 				with tailored photophysics.
+				<p>
+				In one  <a href="http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b00545">recent approach</a>, we have used single-excitation wavefunctions (low-cost)
+				to characterize multiexcitons in organic chromophore clusters. This approach works by establishing a one-to-one relationship between the elements
+				of a Bloch-effective Hamiltonian obtained from one spin-flip calculations and a simple Heisenberg spin lattice. 				
+				</p>
 				<div class="entry-content">
 					<a href="http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b00545" class="image fit"><img src="images/singlet-fission1.png" alt="" /></a>
 				</div>
@@ -112,9 +127,17 @@
 				Accurate quantum chemistry is difficult to apply to large molecules because the 
 				calculations quickly become too computationally demanding. 
 				Approaches to solve this problem can often be divided into two categories: 
-				1) Local orbital methods: More rigorous, but complicated and often slow to crossover. Can be very accurate.
-				2) Fragment-based methods: Simple approach, 
-				well suited for large distributed computing environments. Difficulties with accuracy. 
+				Local orbital methods and Fragment-based methods. 
+				Local orbital methods are more rigorous and have better error management, 
+					but can be much more complicated and are often slow to crossover (become
+					faster than conventional calculations).
+				Fragment-based methods are much more simple, and can lead to quite accurate results,
+					without the complexity overhead required to rewrite electron correlation methods 
+					like CCSD(T). However, these methods rely more on heuristics than well-controlled approximations,
+				       	and thus error management is more of a problem. 
+				We have had an interest in these fragment-based approaches for some time. Two of our methods are described in the following papers: 
+				<a href=http://pubs.acs.org/doi/abs/10.1021/ct200033b>MIM</a>, and
+				<a href=http://pubs.acs.org/doi/abs/10.1021/ct300366e>MOB</a>.
 				<div class="entry-content">
 					<a href="#" class="image fit"><img src="images/fragment4.png" alt="" /></a>
 				</div><!-- .entry-content -->
