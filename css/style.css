@@ -197,11 +197,6 @@
 			display: inline-block;
 			padding: 2em 2em 0 2em;
 		}
-		header.major p2 {
-			border-top: medium double rgba(144, 144, 144, 0.25);
-			display: inline-block;
-			padding: 2em 2em 0 2em;
-		}
 	header.minor {
 		text-align: center;
 		margin-top: 3em;
@@ -210,7 +205,7 @@
 		header.minor p {
 			/*border-top: medium double rgba(144, 144, 144, 0.25);*/
 			border-bottom: medium double rgba(144, 144, 144, 0.25);
-			display: inline-block;
+			/*display: inline-block;*/
 			padding: 1em 1em 1em 1em;
 		}
 
