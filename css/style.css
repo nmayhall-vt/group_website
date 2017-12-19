@@ -205,7 +205,7 @@
 		header.minor p {
 			/*border-top: medium double rgba(144, 144, 144, 0.25);*/
 			border-bottom: medium double rgba(144, 144, 144, 0.25);
-			/*display: inline-block;*/
+			display: inline-block;
 			padding: 1em 1em 1em 1em;
 		}
 
