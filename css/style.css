@@ -197,12 +197,17 @@
 			display: inline-block;
 			padding: 2em 2em 0 2em;
 		}
-	header.major2 {
+		header.major p2 {
+			border-top: medium double rgba(144, 144, 144, 0.25);
+			display: inline-block;
+			padding: 2em 2em 0 2em;
+		}
+	header.minor {
 		text-align: center;
 		margin-top: 3em;
 		margin-bottom: 1em;
 	}
-		header.major2 p {
+		header.minor p {
 			/*border-top: medium double rgba(144, 144, 144, 0.25);*/
 			border-bottom: medium double rgba(144, 144, 144, 0.25);
 			display: inline-block;
