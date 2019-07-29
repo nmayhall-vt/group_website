@@ -6,6 +6,7 @@
 -->
 <html lang="en">
 	<head>
+		<style>html{visibility: hidden;opacity:0;}</style> <!-- Remove FOUC-->
 		<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,700' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="images/m2.png"/>
 		<meta charset="UTF-8">
@@ -24,16 +25,6 @@
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-68693110-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
 	</head>
 	<body>
 
@@ -43,8 +34,8 @@
 					<li><a href="index.html"><font color=#3ba666>mayhall group</font></a></li>
 					<li><a>|</a></li>
 					<li><a href="http://www.chem.vt.edu/">Virginia Tech</a></li>
-			</ul></h1>
-			<nav id="nav">
+				</ul></h1>
+				<nav id="nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
 						<li><a href="news.html">News</a></li>
@@ -53,115 +44,99 @@
 						<li><a href="publications.html">Publications</a></li>
 						<li><a href="resources.html">Resources</a></li>
 						<!--<li><a href="open_positions.html">Open Positions</a></li>-->
-						<li><a href="virginia_tech.html">Virginia Tech</a></li>
 					</ul>
 				</nav>
-			</header>
+		</header>
 
-		<!-- Main -->
-		<section id="main" class="wrapper">
+		<section id="two" class="wrapper style2 align-center">
 			<div class="container">
-
-				<header class="major">
-					<h2>Research Interests</h2>
+				<header>
+					<h2>Research Projects</h2>
 					<h5>
-					Critical problems in all areas of chemistry benefit from a microscopic understanding of structure and mechanism. 
-					Computational chemistry provides an exceptionally detail-rich glance into the inner workings of molecular events. 
-					Our research activities focus primarily on the development of novel quantum chemistry methods and the application of these methods to investigate the chemical foundations of renewable energy sources.
+						Critical problems in all areas of chemistry benefit from a microscopic understanding of structure and mechanism. 
+						Computational chemistry provides an exceptionally detail-rich glance into the inner workings of molecular events. 
+						Our research activities focus primarily on the development of novel quantum chemistry methods and the application 
+						of these methods to investigate the chemical foundations of renewable energy sources.
 					</h5>
 				</header>
-
-				<div class="entry-content">
-					<!--Our research activities focus primarily on the development of novel quantum chemistry methods and the application of these methods to aid the investigation into fundamental aspects of renewable energy sources.-->
+				<div class="row">
+					<section class="feature 6u 12u$(small)">
+						<img class="image fit" src="images/adapt.gif" alt="" />
+						<h3 class="title">Quantum Algorithms for Chemistry</h3>
+						<h5>
+						Quantum computing offers the exciting possibility of side-stepping the exponential scaling associated with simulating chemistry systems at the quantum level.
+						However, in order to achieve this, new algorithms which can run on quantum devices need to be developed and tested. 
+						We are working on developing adaptive quantum algorithms, specifically focused on realizing improved molecular simulations on quantum hardware. 
+						</h5>
+					</section>
+					<section class="feature 6u$ 12u$(small)">
+						<img class="image fit" src="images/smm.gif" alt="Schematic of three SMM nuclear spins coupled coupled to a superconducting cavity resonator. 
+						The SMMs are placed at antinodes of the resonator’s electric field." />
+						<h3 class="title">Materials for Qubits</h3>
+						<h5>
+						Unlike in traditional (classical) computing where the devices are largely determined by material properties,
+						the small sizes of quantum bits, means that the device performance will be determined by both material <i>and</i> molecular properties. 
+						We are interested in developing methods and running simulations for understanding which chemical characteristics (and to what extent) affect the performance of single molecule magnets for quantum information purposes.
+						</h5>
+					</section>
+					<section class="feature 6u 12u$(small)">
+						<img class="image fit" src="images/strong_corr2.png" alt="" />
+						<h3 class="title">Fock-space CI methods</h3>
+						<h5>
+						Entangled electrons in molecular magnets, strongly correlated transition metal catalysts, 
+						many of our most important problems are not easily modelled with conventional quantum chemistry. 
+						We have an ongoing interest in the use of the spin-flip framework (pioneered by Anna Krylov at USC) for describing several 
+						types of strongly correlated systems within a single reference formalism. 
+						</h5>
+					</section>
+					<section class="feature 6u$ 12u$(small)">
+						<img class="image fit"  title="n-body Tucker decomposition" src="images/nbody_tucker.png" />
+						<h3 class="title">Tensor product wavefunction approximations</h3>
+						<h5>
+						<!--
+						-->
+						We work on developing new tools to 
+						efficiently model systems containing strongly correlated electrons.
+						One approach to this problem is to consider tensor decompositions as a way to decrease the complexity of representing strongly correlated systems. 
+						In <a href="http://pubs.acs.org/doi/abs/10.1021/acs.jctc.7b00696">an initial study</a>, we have developed a strategy based on the Tucker decomposition
+						to approximate a system of semi-separable clusters in a quickly converging series of <em>n</em>-body terms.
+						</h5>
+					</section>
+					<section class="feature 6u 12u$(small)">
+						<img href="http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b00545" class="image fit" src="images/singlet-fission1.png" alt="" />
+						<h3 class="title">Excited states in molecular materials</h3>
+						<h5>
+						We work on developing computational techniques to understand the detailed structure and mechanisms which 
+						characterize such photoactive molecular materials, in an effort to design new materials
+						with tailored photophysics.
+						In one  <a href="http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b00545">recent approach</a>, we have used single-excitation wavefunctions (low-cost)
+						to characterize multiexcitons in organic chromophore clusters. This approach works by establishing a one-to-one relationship between the elements
+						of a Bloch-effective Hamiltonian obtained from one spin-flip calculations and a simple Heisenberg spin lattice. 				
+						</h5>
+					</section>
+					<section class="feature 6u 12u$(small)">
+						<img class="image fit" src="images/fragment4.png" alt="" />
+						<h3 class="title">Efficient calculations of large molecules</h3>
+						<h5>
+						Accurate quantum chemistry is difficult to apply to large molecules because the 
+						calculations quickly become too computationally demanding. 
+						Approaches to solve this problem can often be divided into two categories: 
+						Local orbital methods and Fragment-based methods. 
+						Local orbital methods are more rigorous and have better error management, 
+						but can be much more complicated and are often slow to crossover (become
+						faster than conventional calculations).
+						Fragment-based methods are much more simple, and can lead to quite accurate results,
+						without the complexity overhead required to rewrite electron correlation methods 
+						like CCSD(T). However, these methods rely more on heuristics than well-controlled approximations,
+						and thus error management is more of a problem. 
+						We have had an interest in these fragment-based approaches for some time. Two of our methods are described in the following papers: 
+						<a href=http://pubs.acs.org/doi/abs/10.1021/ct200033b>MIM</a>, and
+						<a href=http://pubs.acs.org/doi/abs/10.1021/ct300366e>MOB</a>.
+						</h5>
+					</section>
 				</div>
-			
-
-				<h3><b>Quantum Computing <font size="8">&harr;</font> Quantum Chemistry  </b></h3>
-
-				<p>
-				Quantum computing devices and algorithms have been advancing at a fast pace. 
-				However, unlike in traditional (classical) computing where the devices are largely determined by material properties,
-					the small sizes of quantum bits, means that the device performance will be determined by both material <i>and</i> molecular properties. 
-				This makes quantum chemistry a vital tool in understanding and optimizing molecular systems for use in quantum devices. 
-				We are interested in developing methods and running simulations for understanding which chemical characteristics (and to what extent) affect the performance of single molecule magnets for quantum information purposes.
-				</p>
-				<div class="entry-content">
-					<a href=https://arxiv.org/abs/1812.11173 class="image fit">
-						<img border="0" title="ADAPT-VQE"
-		      src="images/adapt.gif">
-					</a>
-				</div><!-- .entry-content -->
-				<div class="entry-content">
-					<a class="image fit"><img src="images/smm.gif" alt="Schematic of three SMM nuclear spins coupled coupled to a superconducting cavity resonator. The SMMs are placed at antinodes of the resonator’s electric field." /></a>
-				</div><!-- .entry-content -->
-			
-				
-				<h3><b>Strong correlation in molecules</b></h3>
-				Entangled electrons in molecular magnets, strongly correlated transition metal catalysts, 
-				many of our most important problems are not easily modelled with conventional quantum chemistry. 
-				We have an on-going interest in developing new tools for the computational chemist to 
-				efficiently model systems containing strongly correlated electrons.
-
-				<p>
-				One approach to this problem is to consider tensor decompositions as a way to decrease the complexity of representing strongly correlated systems. 
-				In <a href="http://pubs.acs.org/doi/abs/10.1021/acs.jctc.7b00696">an initial study</a>, we have developed a strategy based on the Tucker decomposition
-				to approximate a system of semi-separable clusters in a quickly converging series of <em>n</em>-body terms.
-				</p>
-				<div class="entry-content">
-					<a href=http://pubs.acs.org/doi/abs/10.1021/acs.jctc.7b00696 class="image fit">
-						<img border="0" title="n-body Tucker decomposition"
-		      src="images/nbody_tucker.png">
-					</a>
-				</div><!-- .entry-content -->
-				<p>
-				We also have an ongoing interest in the use of the spin-flip framework (pioneered by Anna Krylov at USC) for describing several 
-				types of strongly correlated systems within a single reference formalism. 
-				</p>
-				<div class="entry-content">
-					<a class="image fit"><img src="images/strong_corr2.png" alt="" /></a>
-				</div><!-- .entry-content -->
-				
-				
-				<h3><b>Excited states in molecular materials</b></h3>
-				<!--By incorporating photoactive molecules into a Metal Organic Framework (MOF),
-				highly regular and long-range chromophoric arrays can be synthesized 
-				to yield new materials displaying energy harvesting capabilities, 
-				with potential for use in next generation energy solutions.-->
-
-				We develop computational techniques to understand the detailed structure and mechanisms which 
-				characterize such photoactive molecular materials, in an effort to design new materials
-				with tailored photophysics.
-				<p>
-				In one  <a href="http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b00545">recent approach</a>, we have used single-excitation wavefunctions (low-cost)
-				to characterize multiexcitons in organic chromophore clusters. This approach works by establishing a one-to-one relationship between the elements
-				of a Bloch-effective Hamiltonian obtained from one spin-flip calculations and a simple Heisenberg spin lattice. 				
-				</p>
-				<div class="entry-content">
-					<a href="http://pubs.acs.org/doi/abs/10.1021/acs.jctc.6b00545" class="image fit"><img src="images/singlet-fission1.png" alt="" /></a>
-				</div>
-				<!-- <div class="entry-content">
-					<a href="#" class="image fit"><img src="images/pcn223-2d.png" alt="" /></a>
-				</div>-->
-
-
-				<h3><b>Efficient calculations of large molecules</b></h3>
-				Accurate quantum chemistry is difficult to apply to large molecules because the 
-				calculations quickly become too computationally demanding. 
-				Approaches to solve this problem can often be divided into two categories: 
-				Local orbital methods and Fragment-based methods. 
-				Local orbital methods are more rigorous and have better error management, 
-					but can be much more complicated and are often slow to crossover (become
-					faster than conventional calculations).
-				Fragment-based methods are much more simple, and can lead to quite accurate results,
-					without the complexity overhead required to rewrite electron correlation methods 
-					like CCSD(T). However, these methods rely more on heuristics than well-controlled approximations,
-				       	and thus error management is more of a problem. 
-				We have had an interest in these fragment-based approaches for some time. Two of our methods are described in the following papers: 
-				<a href=http://pubs.acs.org/doi/abs/10.1021/ct200033b>MIM</a>, and
-				<a href=http://pubs.acs.org/doi/abs/10.1021/ct300366e>MOB</a>.
-				<div class="entry-content">
-					<a href="#" class="image fit"><img src="images/fragment4.png" alt="" /></a>
-				</div><!-- .entry-content -->
+				<footer>
+				</footer>
 			</div>
 		</section>
 
