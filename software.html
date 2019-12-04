@@ -61,13 +61,13 @@
 						<!--<h3 class="title"><a href="https://github.com/mayhallgroup/adapt-vqe">ADAPT-VQE</a></h3>-->
 						<a class='button alt' href="https://github.com/mayhallgroup/adapt-vqe">ADAPT-VQE</a>
 						<h3 class="title"></h3>
-						<h6> The repository found <a href="https://github.com/mayhallgroup/adapt-vqe"><u>here</u></a> contains the code used to generate the results for publications:
+						<h6> This code uses uses PySCF for molecular integrals and OpenFermion for forming the fermion-qubit mapping. 
+							This is a noise free implementation which uses direct exponentiation of Pauli operators in the full Hilbert space. 
+							As such, the code is limited to about 6 spatial orbitals. 
+							For product form ansatze, an efficient recursive gradient algorithm is used for faster quasi-Newton optimization. 
+							The repository found contains the code used to generate the results for publications:
 						<div class="entry-content">
 							<ul>
-								<li><p><b>Is the Trotterized UCCSD Ansatz usefully well-defined?</b><br />
-									Harper R. Grimsley, Daniel Claudino, Edwin Barnes, Sophia E. Economou, and N. J. Mayhall <br />
-									<i>Submitted</i>, (2019): 
-									<a href=https://arxiv.org/abs/1910.10329>preprint</a></p></li>
 								<li><p><b>An adaptive variational algorithm for exact molecular simulations on a quantum computer</b><br />
 									Harper R. Grimsley, Sophia E. Economou, Edwin Barnes, N. J. Mayhall<br />
 									<i>Nature Communications</i>, 10, 3007, (2019): 
@@ -80,10 +80,13 @@
 						</h6>
 					</section>
 					<section class="feature 4u 12u$(small)">
-						<a class='button alt' href="https://github.com/mayhallgroup/psi4fockci">psi4 Fock-CI</a>
+						<a class='button alt' href="https://github.com/mayhallgroup/psi4fockci">Fock Space CI (DETCI)</a>
 						<!--<h3 class="title"><a href="6634_notes.pdf"></a></h3>-->
 						<h3 class="title"></h3>
-						<h6> This repository contains the code used to generate the results for publications:
+						<h6> 
+						This code uses presents and interface to use the RAS-CI functionality of the DETCI module in PSI4 to create the target configuration spaces for the various Fock-CI methods. 
+						As a string-based implementation, this code is general for arbitrary numbers of spin-flips/IPs/EAs, but comes at the cost of a larger computational overhead, including
+						string based indexing, and full two-electron integral storage. This repository contains the code used to generate the results for publications:
 						<div class="entry-content">
 							<ul>
 									<li><p><b>A Combined Spin-Flip and IP/EA Approach for Handling Spin and Spatial Degeneracies: Application to Double Exchange Systems</b><br />
@@ -100,7 +103,8 @@
 					<section class="feature 4u$ 12u$(small)">
 						<a class='button alt' href="https://github.com/mayhallgroup/nbody_tucker">n-body Tucker</a>
 						<h3 class="title"></h3>
-						<h6> The repository found <a href="https://github.com/mayhallgroup/nbody_tucker"><u>here</u></a> contains the code used to generate the results for publications:
+						<h6> This code implements the n-body Tucker approach for isotropic Heisenberg spin Hamiltonians.
+							The repository found contains the code used to generate the results for publications:
 						<div class="entry-content">
 							<ul>
 								<li><p><b>Using higher-order singular value decomposition to define weakly coupled and strongly correlated cluster states: the n-body Tucker approximation</b><br />
